@@ -1,0 +1,46 @@
+var numbers = {
+  10: 10,
+  num: 13,
+  anotherKey: 34,
+  undefined: 12,
+  blue: 98
+};
+
+//***find the sum of all the values***
+// var sumOfVals = 0;
+// for (key in numbers) {
+// sumOfVals += (numbers[key]);
+// };
+//  console.log(sumOfVals);
+
+
+//***push all the values into a new array***
+// var newArr = [];
+// for (key in numbers) {
+// newArr.push(numbers[key]);
+// };
+//  console.log(newArr);
+
+
+//***subtract the odd numbers from the even numbers***
+// var anwer = 0;
+// var oddNums = 0;
+// var evenNums = 0;
+// for (key in numbers) {
+//   if(numbers[key] % 2 === 0) {
+//     evenNums+=numbers[key];
+//   }
+//   else {oddNums+= numbers[key];}
+// }
+// answer = evenNums - oddNums;
+// console.log(evenNums);
+// console.log(oddNums);
+// console.log(answer);
+
+
+//***Multiply values by 2***
+var valsTimesTwo = 0;
+for (key in numbers) {
+valsTimesTwo = 2 * (numbers[key]);
+console.log(valsTimesTwo);
+};
